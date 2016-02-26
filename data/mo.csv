@@ -1,4 +1,4 @@
-last_name,suffix,first_name,middle_name,party,chamber,district,email,url,photo,id,updated
+last_name,suffixes,first_name,middle_name,party,chamber,district,email,url,photo_url,leg_id,updated_at
 Taylor,,Jered,,Republican,lower,139,Jered.Taylor@house.mo.gov,http://www.house.mo.gov/member.aspx?year=2016&district=147,http://www.house.mo.gov/MemberPhoto.aspx?id=1806,MOL000396,2016-02-25 07:33:16
 Shaul,,Dan,,Republican,lower,113,Dan.Shaul@house.mo.gov,http://www.house.mo.gov/member.aspx?year=2016&district=114,http://www.house.mo.gov/MemberPhoto.aspx?id=1792,MOL000403,2016-02-25 07:33:23
 Hansen,,Jim,,Republican,lower,40,Jim.Hansen@house.mo.gov,http://www.house.mo.gov/member.aspx?year=2016&district=95,http://www.house.mo.gov/MemberPhoto.aspx?id=659,MOL000266,2016-02-25 07:33:23

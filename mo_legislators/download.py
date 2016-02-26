@@ -19,3 +19,18 @@ def build_legislators(s, filestring):
     output = sunlight.openstates.legislators(state=s)
     with open(filestring, 'w+') as f:
         json.dump(output, f)
+        
+        
+def get_fed_legislators(s):
+    filestring = 'data/' + s + '-fed.json'
+    if os.path.isfile(filestring):
+        pass
+    else:
+        build_fed_legislators(s, filestring)
+    return return_legislators(filestring)
+        
+def build_fed_legislators(s, filestring):
+    output = sunlight.congress.legislators(state=s)
+    print output
+    with open(filestring, 'w+') as f:
+        json.dump(output, f)        
